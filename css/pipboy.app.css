@@ -163,6 +163,10 @@ nav.navbar >div.navbar-collapse > ul.navbar-nav > li.navbar-item > a.nav-link{
 .nav.nav-tabs > li:nth-child(3) > a{
     opacity: .2;
 }
+.points{
+    position: absolute;
+    right: 5px;
+}
 /* Scanline effect */
 body::after{
     height: 100%;
@@ -232,7 +236,7 @@ body::after{
  }
  .stat-numbers img.sm-img {
     width: 20px;
-    margin-left: -7px;
+    margin-left: -7px !important;
  }
  .stat-numbers .img-fluid{
      max-width: 110%;
