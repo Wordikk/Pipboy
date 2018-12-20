@@ -1,2 +1,2 @@
 # Pipboy
-##Hi guys thats my pipboy website wip.
+## i guys thats my pipboy website wip.
