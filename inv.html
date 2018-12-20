@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PipBoy</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link rel="stylesheet" href="css/tether.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/pipboy.app.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav">
+                <li class="navbar-item">
+                    <a href="index.html" class="nav-link">STAT</a>
+                </li>
+                <li class="navbar-item active">
+                    <a href="inv.html" class="nav-link">INV</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="nav-link">DATA</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="map.html" class="nav-link">MAP</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="nav-link">RADIO</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid inv-marg">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a href="#status" class="nav-link active" data-toggle="tab" role="tab" aria-controls="status"
+                    aria-selected="true">WEAPONS</a>
+            </li>
+            <li class="nav-item">
+                <a href="#special" class="nav-link" data-toggle="tab" role="tab" aria-controls="special" aria-selected="false">APPAREL</a>
+            </li>
+            <li class="nav-item">
+                <a href="#perks" class="nav-link" data-toggle="tab" role="tab" aria-controls="perks" aria-selected="false">AID</a>
+            </li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="tab-content">
+                    <div class="tab-pane active full" id="status" role="tabpanel">
+                        <ul class="item-list">
+
+                            <li><a href="#" class="44_pistol">.44 Pistol</a> </li>
+                            <li><a href="#" class="10mm_pistol">10mm Pistol</a></li>
+                            <li> <a href="#" class="assault_rifle">Assault Rifle</a></li>
+
+                        </ul>
+                        <div class="item-stats">
+                            <div class="row-highlight">
+                                <div class="row">
+                                    <div class="col-12 bg-transparent">
+                                        <div class="img float-right"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <span class="damage float-right">0</span>
+                                        Damage
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row-highlight">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <span class="ammo float-right">0</span>
+                                        Ammo
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row-highlight">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <span class="fire_rate float-right">0</span>
+                                        Fire rate
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row-highlight">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <span class="range float-right">0</span>
+                                        Range
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row-highlight">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <span class="accuracy float-right">0</span>
+                                        Accuracy
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row-highlight">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <span class="weight float-right">0</span>
+                                        Weight
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row-highlight">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <span class="value float-right">0</span>
+                                        Value
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <navbar class="navbar navbar-expand-lg navbar-light navbar-light  pip-footer-2"">
+        <div class="collapse navbar-collapse" id="footerNav">
+                <div class="col-3">
+                    <div class="col-4">
+                        <img src="img/weight.png" class="weight-icon" />
+                        <span>44/220</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="col-4">
+                        <img src="img/Bottlecap_fo4.png" class="coin-icon" />
+                        <span>2000</span>
+                    </div>
+
+                </div>
+                <div class="col-6">
+
+                </div>
+        </div>
+        </navbar>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="js/tether.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/pipboy.app.js"></script>
+</body>
+
+</html>

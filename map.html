@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PipBoy</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link rel="stylesheet" href="css/tether.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/pipboy.app.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav">
+                <li class="navbar-item">
+                    <a href="index.html" class="nav-link">STAT</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="inv.html" class="nav-link">INV</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="map.html" class="nav-link">DATA</a>
+                </li>
+                <li class="navbar-item  active">
+                    <a href="#" class="nav-link">MAP</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="nav-link">RADIO</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="map"></div>
+
+    <navbar class="navbar navbar-expand-lg navbar-light navbar-light  pip-footer-2"">
+        <div class=" collapse
+        navbar-collapse" id="footerNav">
+        <div class="col-3">
+            <div class="col-4" id="date">
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="col-4" id="timer">
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="col-2 float-right">WORLD MAP</div>
+        </div>
+        </div>
+    </navbar>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/pipboy.app.js"></script>
+    <script>
+        function initMap() {
+            // The location of Boston
+            var boston = { lat: 42.360, lng: -71.058 };
+            // The map, centered at Boston
+            var map = new google.maps.Map(
+                document.getElementById('map'), { zoom: 11, center: boston });
+        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjeI5IqQz6qEK44bP91H1VeBNcmICN5GY&callback=initMap">
+    </script>
+</body>
+
+</html>
