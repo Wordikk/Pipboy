@@ -25,31 +25,18 @@
                 <li class="navbar-item">
                     <a href="data.html" class="nav-link">DATA</a>
                 </li>
-                <li class="navbar-item  active">
+                <li class="navbar-item">
                     <a href="map.html" class="nav-link">MAP</a>
                 </li>
-                <li class="navbar-item">
+                <li class="navbar-item active">
                     <a href="radio.html" class="nav-link">RADIO</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <div id="map"></div>
-
-    <navbar class="navbar navbar-expand-lg navbar-light navbar-light  pip-footer-2"">
-        <div class=" collapse
-        navbar-collapse" id="footerNav">
-        <div class="col-3">
-            <div class="col-4" id="date">
-            </div>
-        </div>
-        <div class="col-3">
-            <div class="col-4" id="timer">
-            </div>
-        </div>
-        <div class="col-6">
-            <div class="col-2 float-right">WORLD MAP</div>
-        </div>
+    <navbar class="navbar navbar-expand-lg navbar-light navbar-light  pip-footer-5"">
+        <div class=" collapse navbar-collapse" id="footerNav">
+    <div class="col-12"></div>
         </div>
     </navbar>
 
@@ -57,17 +44,6 @@
     <script src="js/tether.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/pipboy.app.js"></script>
-    <script>
-        function initMap() {
-            // The location of Boston
-            var boston = { lat: 42.360, lng: -71.058 };
-            // The map, centered at Boston
-            var map = new google.maps.Map(
-                document.getElementById('map'), { zoom: 11, center: boston });
-        }
-    </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjeI5IqQz6qEK44bP91H1VeBNcmICN5GY&callback=initMap">
-    </script>
 </body>
 
 </html>

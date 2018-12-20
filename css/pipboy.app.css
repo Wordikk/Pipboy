@@ -287,9 +287,6 @@ body::after{
     margin-top: 6px;
     
 }
-.item-list a.active:hover::before{
-    background: #272B23;
-}
 .item-list li a:hover{
     text-decoration: none;
     background:#14fe17;
@@ -369,4 +366,26 @@ body::after{
     background: #14fe17;
     color: #000;
     text-align: center;
+}
+/* Data style */
+.ml-7{
+    margin-left: 40%;
+}
+/* Radio style */
+.pip-footer-5{
+    position: fixed;
+    border: none !important;
+    bottom: 0px;
+    left: 0px;
+    margin: 10px;
+    width: calc(100% - 20px);
+    font-size: 22px;   
+    height: 43px;
+    background: rgba(16 , 255, 0, .15);
+}
+.pip-footer-5::before{
+    display: none !important;
+}
+.pip-footer-5::after{
+    display: none !important;
 }
